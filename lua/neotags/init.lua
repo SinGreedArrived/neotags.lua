@@ -12,6 +12,7 @@ do
       if not self.opts.enable then
         return 
       end
+
       return self:run('highlight')
     end,
     currentTagfile = function(self)
